@@ -1,0 +1,55 @@
+/* koho-300 - latin */
+@font-face {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 300;
+  src: url('koho-v1-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('KoHo Light'), local('KoHo-Light'),
+       url('koho-v1-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('koho-v1-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('koho-v1-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('koho-v1-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('koho-v1-latin-300.svg#KoHo') format('svg'); /* Legacy iOS */
+}
+
+/* koho-regular - latin */
+@font-face {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('koho-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('KoHo Regular'), local('KoHo-Regular'),
+       url('koho-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('koho-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('koho-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('koho-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('koho-v1-latin-regular.svg#KoHo') format('svg'); /* Legacy iOS */
+}
+
+/* koho-600 - latin */
+@font-face {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 600;
+  src: url('koho-v1-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('KoHo SemiBold'), local('KoHo-SemiBold'),
+       url('koho-v1-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('koho-v1-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('koho-v1-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('koho-v1-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('koho-v1-latin-600.svg#KoHo') format('svg'); /* Legacy iOS */
+}
+
+/* koho-700 - latin */
+@font-face {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('koho-v1-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('KoHo Bold'), local('KoHo-Bold'),
+       url('koho-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('koho-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('koho-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('koho-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('koho-v1-latin-700.svg#KoHo') format('svg'); /* Legacy iOS */
+}
