@@ -49,7 +49,7 @@ defaults:
       layout: "default"
 
 donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
-newsletter_action: "//your-mailchimp-action-url.com"
+newsletter_action: "https://ferrous-systems.us19.list-manage.com/subscribe/post?u=94954b16eab55b59525c890cb&amp;id=e36e6cd91a"
 
 plugins:
   - jekyll-sitemap
@@ -60,6 +60,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor
 
 # -----------
 # CloudCannon
