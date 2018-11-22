@@ -57,7 +57,7 @@ form {
 	max-width: 600px;
 	margin: 0 auto;
 	@media #{$phone} {
-	width: 250px;
+	max-width: 320px;
 	margin: 0 0;
 	}
 
