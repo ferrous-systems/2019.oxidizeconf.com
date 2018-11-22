@@ -9,6 +9,7 @@
 
 header {
 	padding-bottom: 50px;
+	height: 100vh;
 
 	@media #{$desktop} {
 		.container {
@@ -233,6 +234,12 @@ footer {
 	}
 }
 
+.centered {
+	@media #{$phone} {
+	text-align: center;
+	}
+}
+
 .copyright {
 	padding: 5px 0;
 	margin: 0;
@@ -358,4 +365,9 @@ footer {
 .darker {
 	background: #f8fafb;
 	padding: 60px 0;
+}
+
+.lighter {
+	background: #fff;
+	padding: 0 0;
 }

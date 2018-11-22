@@ -19,7 +19,7 @@ hr {
 
 h1 {
 	padding: 0;
-	margin: 0 0 20px 0;
+	margin: 40px 0 20px 0;
 	font-size: 3em;
 }
 
@@ -54,14 +54,19 @@ section {
 
 form {
 	display: flex;
-	max-width: 500px;
+	max-width: 600px;
 	margin: 0 auto;
+	@media #{$phone} {
+	width: 250px;
+	margin: 0 0;
+	}
+
 
 	input[type="text"] {
 		flex-grow: 1;
 		flex-shrink: 1;
 		width: 100%;
-		border: 1px solid #ddd;
+		
 
 
 		&, &:focus {
@@ -87,7 +92,7 @@ form {
 
 .button a, input[type="submit"], input[type="text"] {
 	border: 0;
-	padding: 15px 40px;
+	padding: 15px 15px;
 	box-sizing: content-box;
 	font-size: 1em;
 	font-weight: 100;
