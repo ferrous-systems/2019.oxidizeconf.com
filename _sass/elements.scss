@@ -57,7 +57,7 @@ form {
 	max-width: 600px;
 	margin: 0 auto;
 	@media #{$phone} {
-	max-width: 320px;
+	max-width: 300px;
 	margin: 0 0;
 	}
 
@@ -92,7 +92,7 @@ form {
 
 .button a, input[type="submit"], input[type="text"] {
 	border: 0;
-	padding: 15px 15px;
+	padding: 15px 25px;
 	box-sizing: content-box;
 	font-size: 1em;
 	font-weight: 100;
@@ -114,4 +114,27 @@ form {
 	&:hover {
 		background: darken($brand-color, 5%);
 	}
+}
+
+.mascot {
+	transform: rotate(10deg);
+}
+
+.ticket a {
+	border: 0;
+	padding: 15px 60px;
+	box-sizing: content-box;
+	font-size: 1em;
+	font-weight: 100;
+	background: $brand-color;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.headline {
+	font-size: 6rem;
+	line-height: 0em;
+	color: #333;
+	font-weight: 300;
 }

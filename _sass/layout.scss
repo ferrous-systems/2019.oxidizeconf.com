@@ -233,6 +233,10 @@ footer {
 	}
 }
 
+.center {
+	text-align: center;
+}
+
 .centered {
 	@media #{$phone} {
 	text-align: center;
