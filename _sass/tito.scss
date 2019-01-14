@@ -10,7 +10,8 @@
     margin: 20px auto;
     max-width: 100%;
     padding: 10px 0 0 0;
-    width: 100%
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .tito-ticket-list {
@@ -270,8 +271,8 @@ input.form-control.tito-discount-code-field.discount-code-field {
 }
 
 .tito-submit {
-    background: #428bca !important;
-    border: 1px solid #357ebd !important;
+    background: #423cc6 !important;
+    border: 1px solid #423cc6 !important;
     border-radius: 4px !important;
     color: #fff !important;
     cursor: pointer !important;
@@ -291,8 +292,8 @@ input.form-control.tito-discount-code-field.discount-code-field {
 }
 
 .tito-submit:hover {
-    border-color: #285e8e !important;
-    background: #3276b1 !important
+    border-color: #424cc6 !important;
+    background: #424cc6 !important
 }
 
 .tito-ticket.tito-locked-ticket>div {
@@ -313,7 +314,7 @@ input.form-control.tito-discount-code-field.discount-code-field {
 .tito-badge-link {
     font-size: 1.1em;
     display: inline-block;
-    margin: 15px 0 5px;
+    margin: 10px 0 10px;
     text-align: center;
     width: 100%
 }
