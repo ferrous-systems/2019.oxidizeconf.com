@@ -9,4 +9,4 @@ If you would like to bring your kid, [contact us](mailto:oxidizeconf@ferrous-sys
 
 * Their age
 * Their spoken languages
-* Any special things we need to be aware of (e.g. allergies, illnesses, food preferences, but only to the extend the caregiver needs to know)
+* Any special things we need to be aware of (e.g. allergies, illnesses, food preferences, but only to the extent the caregiver needs to know)
