@@ -20,14 +20,12 @@ header {
 
 			img {
 				max-width: none;
-				width: 120%;
 			}
 
 			&:first-child {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				margin-right: 50px;
 			}
 		}
 	}
@@ -117,7 +115,7 @@ blockquote {
 
 		&::before {
 			content: "\201C";
-			font-family: Georgia, serif;
+			font-family: Quicksand, serif;
 
 			font-size: 90px;
 			font-weight: bold;
