@@ -372,3 +372,33 @@ footer {
 	background: #fff;
 	padding: 0 0;
 }
+
+@media screen and (max-width: 600px) {
+nav a:not(:first-child) {
+	display: none;
+}
+nav a.caron {
+    float: right;
+    display: block;
+  }
+nav {
+	float: none;
+	padding-right: 0;
+}
+}
+
+@media screen and (max-width: 600px) {
+nav.responsive {
+	position: relative;
+}
+nav.responsive a.caron {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
