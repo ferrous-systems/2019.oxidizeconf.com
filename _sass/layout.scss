@@ -404,8 +404,44 @@ nav.responsive a {
 }
 
 .nav-logo {
-	position: relative;
-	height: 30px;
-	top: 10px;
-	float: left;
+       position: relative;
+       height: 30px;
+       top: 10px;
+       float: left;
+}
+
+.sponsor-flex-grid {
+  display: flex;
+  align-items: center;
+}
+.sponsor-flex-grid .sponsor-col {
+  flex: 1;
+}
+.sponsor-flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsor-flex-grid-thirds .sponsor-col {
+  width: 32%;
+}
+
+@media (max-width: 600px) {
+  .sponsor-flex-grid,
+  .sponsor-flex-grid-thirds {
+    display: block;
+    .sponsor-col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+
+.sponsor-flex-grid {
+  margin: 0 0 20px 0;
+}
+.sponsor-col {
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
