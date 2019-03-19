@@ -1,0 +1,26 @@
+- title: Workshops
+  date: 26 April
+  description: "The OxidizeConf Workshops are a one day, two track set of workshops led by Ferrous Systems. Tickets for the OxidizeConf Workshops are sold separately from Conference tickets. The tracks will be divided as Beginner and Advanced Embedded Rustlang development. Participants will be provided all embedded hardware necessary for the course."
+  location: 
+  tickets: <tito-widget event="asquera-event-ug/oxidize-2019" releases="i64ylx4bfzg,iijng-hcejg,ggyjtldyrt4"></tito-widget>
+  map:
+  link: ""
+  linked:
+
+- title: Talks
+  date: 27 April
+  description: The Oxidize Conference is the main event, showcasing the use of Rust in the Embedded Systems domain, with a focus on real world and production use-cases.
+  location: ThoughtWorks Berlin<br>Zimmerstraße 23<br>10969 Berlin, Germany
+  tickets: <tito-widget event="asquera-event-ug/oxidize-2019" releases="4f8rgaz0hrc,5qxjoyu0amg,uym-dldbgsw,sc3gsxelmmy,ynkvpbpwkzq"></tito-widget>
+  map: https://www.google.com/maps?ll=52.507529,13.391356&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=2567137146527617800
+  link: ""
+  linked: "/schedule"
+
+- title: Implementation Days
+  date: 28 &amp; 29 April
+  description: Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
+  location: 
+  ticket: null
+  map:
+  link: ""
+  linked:

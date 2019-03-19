@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: $font;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.page {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  p {
+    padding: 0.5rem 0;
+  }
+  * {
+    line-height:  1.6;
+  }
+  ul, ol, blockquote {
+    padding-left: 1rem;
+    padding: 1rem 0 1rem 1rem;
+  }
+}
+img {
+  max-width: 100%;
+}
+.xs {
+  @media screen and (max-width: 667px) {
+    display: none;
+  }
+}
+
+blockquote {
+  margin: 1rem auto;
+  padding:  1rem;
+  border-left: 0.5rem solid #eee;
+}
+table {
+  min-width: 100%;
+}
+thead {
+  background: $brand-color;
+  color: $light;
+}
+.pt-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+footer{
+  color: $light;
+  a {
+    color: inherit;
+  }
+}

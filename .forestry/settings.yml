@@ -1,0 +1,45 @@
+---
+new_page_extension: md
+auto_deploy: true
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: _data
+  label: Data
+  create: all
+  match: "**/*"
+- type: directory
+  path: _pages
+  label: Pages
+  create: all
+  match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: _sessions
+  label: Sessions
+  create: all
+  match: "**/*"
+- type: directory
+  path: _staff_members
+  label: Staff members
+  create: all
+  match: "**/*"
+upload_dir: images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=staging
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
+  output_directory: _site
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site

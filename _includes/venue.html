@@ -1,0 +1,19 @@
+<div class = 'venue_items'>
+  {% for item in site.data.venue %}
+    <div class = 'venue_item'>
+      <h3 class="venue_heading" id = "{{ item.title | slugify | downcase }}">{{ item.title }}</h3>
+      <!-- <p class="dates">{{ item.date }}</p>
+      <p class="schedule-para">{{ item.description }}</p> -->
+      <!-- <p class="dates">Location</p> -->
+      {% if item.location == nil %}
+      <p class="location">TBA</p>
+      {% else %}
+      <p class="location">{{ item.location }}</p>
+      {% endif %}
+      {% if item.map == nil %}
+      {% else %}
+      <a class="btn btn_light" href="{{ item.map }}">See Map</a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

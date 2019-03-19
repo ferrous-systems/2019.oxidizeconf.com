@@ -3,64 +3,28 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		{% seo %}
-
-		<link href="{{ site.baseurl }}/fonts/quicksand.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href='{{ site.baseurl }}/fonts/tito.css' />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+		{%- seo -%}
+		<link rel="stylesheet" type="text/css" href='{{ site.baseurl }}/css/styles.css' />
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" sizes="32x32">
+		{% if page.tickets %}
 		<script async src='{{ site.baseurl }}/javascript/tito.js'></script>
-
+		{% endif %}
 	</head>
 	<body>
-		{% include nav.html %}
-		<div class="content">
-			{{ content }}
-		</div>
-		<footer>
-			<div class="container">
-				<div class="about">
-					<p>{{ site.data.company.mission_statement }}</p>
+		{%- unless page.layout == 'home' -%}
+		<header>
+			{% include nav.html %}
+			<div class = 'session_headline'>
+				<div class = 'margin-div'>
+					<h1>{{ page.title }}</h1>
+					{% if page.speakers %}<h2 class = 'h2'>By {{ page.speakers[0].name }}{% if page.speakers[1] %} and {{page.speakers[1].name}}{% endif %}</h2>{% endif %}
 				</div>
-
-				<div class="contact">
-					<address>
-						<a href="https://www.google.com/maps/place/{{ site.data.company.address | url_encode }}">
-							{% include icons/footer.html icon="place" %} {{ site.data.company.address }}
-						</a>
-					</address>
-					<p class="email">
-						<a href="mailto:{{ site.data.company.email }}">
-							{% include icons/footer.html icon="email" %} {{ site.data.company.email }}
-						</a>
-					</p>
-					<p class="phone">
-						<a href="tel:{{ site.data.company.phone | replace: ' ', '-' }}">
-							{% include icons/footer.html icon="phone" %} {{ site.data.company.phone }}
-						</a>
-					</p>
-				</div>
-
-				<div class="sharing">
-					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
-						{% include icons/social-media.html social_icon="twitter" %}
-					</a>
-				</div>
-			</div>
-		</footer>
-		<p class="copyright"></p>
-
-		<script src="{{ site.baseurl }}/javascript/jquery.min.js"></script>
-		<script type="text/javascript">
-			$('a[href*=\\#]').on('click', function(event){
-				var el = $(this.hash);
-				if (el.length > 0) {
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-				}
-			});
-		</script>
+			 </div>
+		</header>
+		{%- endunless -%}
+		{{ content }}
+		{%- include footer.html -%}
+		<script>{%- include scripts.js -%}</script>
 	</body>
 </html>

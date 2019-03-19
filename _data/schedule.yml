@@ -1,0 +1,91 @@
+- day: Saturday, 27th April
+  theme: aka "Talks, Talks, Talks"
+  sessions: 
+    - title: Registration opens 🎫
+      time: 0830
+    - title: Welcome Keynote and Sponsors 👥
+      time: 0900
+    - title: War stories from teaching Rust and Embedded simultaneously
+      time: 0945
+      url: /sessions/war-stories/
+      speakers:
+        - name: Oliver Scherer
+          avatar: speaker.jpg
+    - title: "Iron parts on deep roots: Using the RIOT operating system"
+      time: 1025
+      url: /sessions/riot-os/
+      speakers:
+        - name: Christian Amsüss
+          avatar: speaker.jpg
+    - title: Coffee Break ☕️
+      time: 1040
+    - title: Adding Security to Rust Safety with TrustZone for Armv8-M
+      time: 1100
+      url: /sessions/trust-zone/
+      speakers:
+        - name: Hugues de Valon
+          avatar: speaker.jpg
+    - title: "RISC-V and Rust: Embedded Systems Done Right"
+      time: 1140
+      url: /sessions/risc-v/
+      speakers:
+        - name: Arun Thomas
+          avatar: speaker.jpg
+    - title: Test generator and managing resource dependencies
+      time: 1220
+      url: /sessions/test-generator/
+      speakers:
+        - name: Frank Rehberger
+          avatar: speaker.jpg
+    - title: Lunch 🍴
+      time: 1235
+    - title: TBA
+      time: 1400
+      url: 
+      speakers:
+        - name:  TBA
+          avatar: speaker.jpg
+    - title: Embedded Rust Anywhere
+      time: 1440
+      url: /sessions/embedded-rust/
+      speakers:
+        - name: Joseph Ross
+          avatar: speaker.jpg
+    - title: How to Rust when Standards Are Defined in C
+      time: 1520
+      url: /sessions/how-to-rust/
+      speakers:
+        - name: Eddy Petrisor
+          avatar: speaker.jpg
+    - title: Coffee Break ☕️
+      time: 1550
+    - title: "Bluetooth and Skateboarding: Safety-critical Embedded Rust"
+      time: 1610
+      url: /sessions/bluetooth-skateboarding/
+      speakers:
+        - name: Ferdia McKeogh
+          avatar: speaker.jpg
+    - title: Industrial-grade IoT application on the road with Rust on Pi
+      time: 1640
+      url: /sessions/Industrial-grade/
+      speakers:
+        - name: Tristan Lostroh
+          avatar: speaker.jpg
+    - title: TBA
+      time: 1710
+      url: 
+      speakers:
+        - name: TBA
+          avatar: speaker.jpg
+    - title: Project Highlight TBA
+      time: 1750
+      url: #
+      speakers:
+        - name: TBA
+          avatar: speaker.jpg
+    - title: Closing Notes 📋
+      time: 1830
+
+- day: Sunday and Monday, 28-29th April
+  theme: aka "Working hard all day in the shop"
+  sessions: 

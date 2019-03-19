@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<main class = 'margin-div page'>
+  <div class = 'event_day'>{{ page.event-type }} - {{ page.day }}</div>
+  <div class = 'event_time'>{{ page.time }}</div>
+  {{ content }}
+</main>
+<section class = 'margin-div'>
+  <h2>Speakers</h2>
+  <div class = 'speakers'>
+    {% for speaker in page.speakers %}
+    <div class = 'speaker'>
+      <div class = 'speaker_avatar'>
+        <img src = '/images/{{ speaker.avatar }}' alt = 'speaker.name'>
+      </div>
+      <div class = 'speaker_bio'>
+        <h3 class = 'speaker_name'>{{ speaker.name }}</h3>
+        {{ speaker.bio | markdownify }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

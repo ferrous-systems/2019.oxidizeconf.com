@@ -1,0 +1,44 @@
+<div class = 'sessions margin-div wrap'>
+  {%- assign schedule = site.data.schedule -%}
+  {% for date in schedule %}
+  <section class = 'session_item'>
+    <h2 class = 'session_date'>{{ date.day }}</h2>
+    <p class = 'session_theme'>{{ date.theme }}</p>
+    {% for session in date.sessions %}
+      {%- assign speakers = session.speakers -%}
+      {% if session.url %} 
+      <a href = '{{ session.url }}' class = 'session {% unless speakers%}session_default{% endunless %}'>
+      {%- else -%}
+      <div class = 'session {% unless speakers%}session_default{% endunless %}'>
+      {%- endif -%}
+        <div class = 'session_start'>
+          {{ session.time }}
+        </div>
+        <div class = 'session_details'>
+          <div class = 'session_summary'>
+            {{ session.title | markdownify }}
+          </div>
+          {{ if speakers }}
+          <div class = 'session_speakers'>
+            {% for speaker in speakers %}
+            <div class = 'session_speaker'>
+              <div class = 'session_avatar'>
+                <img src = '/images/{{ speaker.avatar }}' alt = '{{ speaker.name }}' class = 'session_thumbnail'>
+              </div>
+              <div class = 'session_person'>
+                {{ speaker.name }}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          {{ endif }}
+        </div>
+      {% if session.url -%}
+      </a>
+      {% else -%}
+      </div>
+      {% endif -%}
+    {% endfor %}
+  </section>
+  {% endfor %}
+</div>

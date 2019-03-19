@@ -1,0 +1,11 @@
+{% for schedule in site.data.venue %}
+  <div class = 'venue_item'>
+    <h3 class="schedule_heading" id = "{{ schedule.title | slugify | capitalize }}">{{ schedule.title }}</h3>
+    <p class="schedule_date">{{ schedule.date }}</p>
+    <p class="schedule-para">{{ schedule.description }}</p>
+    {% if schedule.linked %}<a href = "{{ schedule.linked }}" class = 'btn_regular'>schedule</a>{% endif %}
+    {% if schedule.tickets %}
+    {{ schedule.tickets }}
+    {% endif %}
+  </div>
+{% endfor %}

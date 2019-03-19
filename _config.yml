@@ -3,7 +3,9 @@
 
 title: Berlin
 url: 
-baseurl: 
+baseurl: ""
+sass:
+  style: compressed
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -28,25 +30,37 @@ collections:
       image:
         width: 250
         height: 250
+  sessions:
+    output: true 
 
-permalink: pretty
+# permalink: pretty
 
 defaults:
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
-      _options:
-        content:
-          width: 1880
-          height: 1880
+      # _options:
+      #   content:
+      #     width: 1880
+      #     height: 1880
   -
     scope:
-      path: ""
+      path: "_pages"
     values:
-      layout: "default"
+      layout: "page"
+      permalink: /:title/
+  
+  -
+    scope:
+      path: "_sessions"
+    values:
+      layout: "session"
+      permalink: /:title/
+      session: true
+  
 
 donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
 newsletter_action: "https://ferrous-systems.us19.list-manage.com/subscribe/post?u=94954b16eab55b59525c890cb&amp;id=e36e6cd91a"
@@ -62,13 +76,16 @@ exclude:
   - LICENCE
   - vendor
 
+include:
+  - _pages
+  
 # -----------
 # CloudCannon
 
-_options:
-  header_background_image:
-    width: 1880
-    height: 1880
-  newsletter_background_image:
-    width: 1880
-    height: 1880
+# _options:
+#   header_background_image:
+#     width: 1880
+#     height: 1880
+#   newsletter_background_image:
+#     width: 1880
+#     height: 1880
