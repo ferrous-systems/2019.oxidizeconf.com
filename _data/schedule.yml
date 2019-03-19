@@ -1,6 +1,6 @@
 - day: Saturday, 27th April
   theme: aka "Talks, Talks, Talks"
-  sessions: 
+  sessions:
     - title: Registration opens 🎫
       time: 0830
     - title: Welcome Keynote and Sponsors 👥
@@ -41,7 +41,7 @@
       time: 1235
     - title: TBA
       time: 1400
-      url: 
+      url:
       speakers:
         - name:  TBA
           avatar: speaker.jpg
@@ -73,19 +73,19 @@
           avatar: speaker.jpg
     - title: TBA
       time: 1710
-      url: 
+      url:
       speakers:
         - name: TBA
           avatar: speaker.jpg
-    - title: Project Highlight TBA
+    - title: Project Highlight - Tock-OS
       time: 1750
-      url: #
+      url: /sessions/tock-os/
       speakers:
-        - name: TBA
+        - name: Louis Thiery
           avatar: speaker.jpg
     - title: Closing Notes 📋
       time: 1830
 
 - day: Sunday and Monday, 28-29th April
   theme: aka "Working hard all day in the shop"
-  sessions: 
+  sessions:
