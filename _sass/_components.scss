@@ -341,8 +341,16 @@ tr {
     grid-gap: 1.5rem;
     grid-template-columns: 1fr;
     align-items: center;
+    margin-top: 3.5rem;
     @media screen and (min-width: 667px) {
       grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    }
+    @media screen and (min-width: 667px) {
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    }
+    @media only screen and (max-width: 1118px) {
+      grid-gap: 3.5rem;
+      text-align: center;
     }
   }
   &_logo {
