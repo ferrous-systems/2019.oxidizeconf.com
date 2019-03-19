@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Berlin
+title: Oxidize Berlin Conference
 url: 
 baseurl: ""
 sass:
@@ -9,7 +9,7 @@ sass:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Oxidize Berlin Conference
+description: 
 author:
   name:
   email:
