@@ -64,13 +64,13 @@
       url: /sessions/bluetooth-skateboarding/
       speakers:
         - name: Ferdia McKeogh
-          avatar: speaker.jpg
+          avatar: speakers/ferdia.png
     - title: Industrial-grade IoT application on the road with Rust on Pi
       time: 1640
       url: /sessions/Industrial-grade/
       speakers:
         - name: Tristan Lostroh
-          avatar: speaker.jpg
+          avatar: speakers/tlostroh.png
     - title: TBA
       time: 1710
       url:
