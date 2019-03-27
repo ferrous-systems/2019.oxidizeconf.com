@@ -24,7 +24,7 @@
       url: /sessions/trust-zone/
       speakers:
         - name: Hugues de Valon
-          avatar: speaker.jpg
+          avatar: speakers/hugues.png
     - title: "RISC-V and Rust: Embedded Systems Done Right"
       time: 1140
       url: /sessions/risc-v/
@@ -56,7 +56,7 @@
       url: /sessions/how-to-rust/
       speakers:
         - name: Eddy Petrisor
-          avatar: speaker.jpg
+          avatar: speakers/eddy.png
     - title: Coffee Break ☕️
       time: 1550
     - title: "Bluetooth and Skateboarding: Safety-critical Embedded Rust"
