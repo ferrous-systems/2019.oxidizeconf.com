@@ -1,3 +1,11 @@
+- name: Arm
+  website: https://www.arm.com/
+  logo: arm-logo.png
+
+# - name: Decawave
+#   website: https://www.decawave.com
+#   logo: decawave-logo.jpg
+
 - name: ThoughtWorks
   website: https://thoughtworks.com
   logo: tw-logo.svg
@@ -9,4 +17,3 @@
 - name: 42Technology
   website: https://www.42technology.com
   logo: 42t-logo.png
-
