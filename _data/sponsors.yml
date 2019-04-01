@@ -2,9 +2,9 @@
   website: https://www.arm.com/
   logo: arm-logo.png
 
-- name: Decawave
-  website: https://www.decawave.com
-  logo: decawave-logo.jpg
+# - name: Decawave
+#   website: https://www.decawave.com
+#   logo: decawave-logo.jpg
 
 - name: ThoughtWorks
   website: https://thoughtworks.com
