@@ -1,10 +1,10 @@
 ---
 title: "Bluetooth and Skateboarding: Safety-critical Embedded Rust"
 permalink: /sessions/bluetooth-skateboarding/
-speakers: 
+speakers:
   - name: Ferdia McKeogh
-    avatar: speaker.jpg
-    bio: 
+    avatar: speakers/ferdia.png
+    bio:
 time: 4:10 PM
 day: Saturday, 27th April
 event-type: Talks

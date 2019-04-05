@@ -24,7 +24,7 @@
       url: /sessions/trust-zone/
       speakers:
         - name: Hugues de Valon
-          avatar: speaker.jpg
+          avatar: speakers/hugues.png
     - title: "RISC-V and Rust: Embedded Systems Done Right"
       time: 1140
       url: /sessions/risc-v/
@@ -39,12 +39,12 @@
           avatar: speaker.jpg
     - title: Lunch 🍴
       time: 1235
-    - title: TBA
+    - title: Our Experience Writing a Production Embedded Library in Rust
       time: 1400
-      url:
+      url: /sessions/production-embedded-library/
       speakers:
-        - name:  TBA
-          avatar: speaker.jpg
+        - name: Hubert de La Jonquière
+          avatar: speakers/hubert.png
     - title: Embedded Rust Anywhere
       time: 1440
       url: /sessions/embedded-rust/
@@ -56,7 +56,7 @@
       url: /sessions/how-to-rust/
       speakers:
         - name: Eddy Petrisor
-          avatar: speaker.jpg
+          avatar: speakers/eddy.png
     - title: Coffee Break ☕️
       time: 1550
     - title: "Bluetooth and Skateboarding: Safety-critical Embedded Rust"
@@ -64,18 +64,18 @@
       url: /sessions/bluetooth-skateboarding/
       speakers:
         - name: Ferdia McKeogh
-          avatar: speaker.jpg
+          avatar: speakers/ferdia.png
     - title: Industrial-grade IoT application on the road with Rust on Pi
       time: 1640
       url: /sessions/Industrial-grade/
       speakers:
         - name: Tristan Lostroh
-          avatar: speaker.jpg
-    - title: TBA
+          avatar: speakers/tlostroh.png
+    - title: Bringing More People Close to the Metal
       time: 1710
-      url:
+      url: /sessions/bringing-more/
       speakers:
-        - name: TBA
+        - name:  Rahul Thakoor
           avatar: speaker.jpg
     - title: Project Highlight - Tock-OS
       time: 1750
