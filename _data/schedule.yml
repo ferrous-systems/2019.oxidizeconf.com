@@ -39,11 +39,11 @@
           avatar: speaker.jpg
     - title: Lunch 🍴
       time: 1235
-    - title: TBA
+    - title: Our Experience Writing a Production Embedded Library in Rust
       time: 1400
-      url:
+      url: /sessions/production-embedded-library/
       speakers:
-        - name:  TBA
+        - name: Hubert de La Jonquière
           avatar: speakers/hubert.png
     - title: Embedded Rust Anywhere
       time: 1440

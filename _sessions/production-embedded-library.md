@@ -1,5 +1,5 @@
 ---
-title: Our experience writing a production embedded library in rust
+title: Our Experience Writing a Production Embedded Library in Rust
 permalink: /sessions/production-embedded-library/
 speakers:
   - name: Hubert de La Jonquière
