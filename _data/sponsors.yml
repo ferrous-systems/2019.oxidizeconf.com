@@ -17,3 +17,7 @@
 - name: 42Technology
   website: https://www.42technology.com
   logo: 42t-logo.png
+
+- name: Mozilla
+  website: https://www.mozilla.org
+  logo: mozilla-logo.png
