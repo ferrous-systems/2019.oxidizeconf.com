@@ -5,7 +5,7 @@ speakers:
   - name: Rahul Thakoor
     avatar: speaker.jpg
     bio: A medical graduate now turned developer! I taught myself programming and basic electronics and discovered there were not many resources for people who come from a non-technical background and wish to learn programming. I have been finding ways to create resources for beginners who want to learn programming through physical computing.
-time: 2:00 PM
+time: 5:10 PM
 day: Saturday, 27th April
 event-type: Talks
 ---
