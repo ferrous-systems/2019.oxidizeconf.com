@@ -39,11 +39,11 @@
           avatar: speaker.jpg
     - title: Lunch 🍴
       time: 1235
-    - title: Our experience writing a production embedded library in rust
+    - title: TBA
       time: 1400
-      url: /sessions/production-embedded-library/
+      url:
       speakers:
-        - name: Hubert de La Jonquière
+        - name:  TBA
           avatar: speakers/hubert.png
     - title: Embedded Rust Anywhere
       time: 1440
@@ -71,11 +71,11 @@
       speakers:
         - name: Tristan Lostroh
           avatar: speakers/tlostroh.png
-    - title: TBA
+    - title: Bringing More People Close to the Metal
       time: 1710
-      url:
+      url: /sessions/bringing-more/
       speakers:
-        - name: TBA
+        - name:  Rahul Thakoor
           avatar: speaker.jpg
     - title: Project Highlight - Tock-OS
       time: 1750
