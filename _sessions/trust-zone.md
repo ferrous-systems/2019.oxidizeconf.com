@@ -1,9 +1,9 @@
 ---
 title: Adding Security to Rust Safety with TrustZone for Armv8-M
 permalink: /sessions/trust-zone/
-speakers: 
+speakers:
   - name: Hugues de Valon
-    avatar: speaker.jpg
+    avatar: speakers/hugues.png
     bio: I am an Embedded Software Engineer working in the Open Source Software department at Arm, Cambridge. I have been working during the last two years on embedded platforms and projects built around the Armv8-M architecture profile and using the TrustZone for Cortex-M security extension. I have recently discovered Rust and told myself that it would be great for Rust to be the second language that support the TrustZone-M extension!
 time: 11:00 A.M
 day: Saturday, 27th April
