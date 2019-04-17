@@ -1,9 +1,9 @@
 ---
 title: Embedded Rust Anywhere
 permalink: /sessions/embedded-rust/
-speakers: 
-  - name: Joseph Ross
-    avatar: speaker.jpg
+speakers:
+  - name: Joseph Ross & Bob Cotrell
+    avatar: speakers/bob_joe.png
     bio: Bob Cottrell and Joe Ross are helping build the next-generation kitchen starting with the June Oven. With a software ecosystem which includes kitchen appliances, mobile applications, and a real-time messaging back end, Bob and Joe are leading their team's adoption of embedded Rust to build new appliances on constrained (and less expensive) computing hardware.
 time: 2:40 PM
 day: Saturday, 27th April

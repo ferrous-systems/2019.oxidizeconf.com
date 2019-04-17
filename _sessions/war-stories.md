@@ -1,9 +1,9 @@
 ---
 title: War stories from teaching Rust and Embedded simultaneously
 permalink: /sessions/war-stories/
-speakers: 
+speakers:
   - name: Oliver Scherer
-    avatar: speaker.jpg
+    avatar: speakers/oli-obk.png
     bio: I am a computer science researcher at KIT since 2014 and started teaching Rust regularly in 2016. Since Rust 1.0 I contributed frequently to the Rust compiler and its constant evaluator and have joined the compiler team in 2018. In my time at KIT I mentored several bachelor theses on developing embedded software safely by using Rust specific features.
 time: 9:45 A.M
 day: Saturday, 27th April
