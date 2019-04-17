@@ -1,9 +1,9 @@
 ---
 title: "Iron parts on deep roots: Using the RIOT operating system"
 permalink: /sessions/riot-os/
-speakers: 
+speakers:
   - name: Christian Amsüss
-    avatar: speaker.jpg
+    avatar: speakers/christian-amsuess.png
     bio: Active in Free Software communities since 2005, and developing with embedded devices and their networks since 2011. Currently working with etonomy on facilitating more intelligent use of local and grid power.
 time: 10:25 A.M
 day: Saturday, 27th April
