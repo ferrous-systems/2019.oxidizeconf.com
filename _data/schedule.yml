@@ -5,12 +5,12 @@
       time: 0830
     - title: Welcome Keynote and Sponsors 👥
       time: 0900
-    - title: War stories from teaching Rust and Embedded simultaneously
+    - title: Our Experience Writing a Production Embedded Library in Rust
       time: 0945
-      url: /sessions/war-stories/
+      url: /sessions/production-embedded-library/
       speakers:
-        - name: Oliver Scherer
-          avatar: speaker.jpg
+        - name: Hubert de La Jonquière
+          avatar: speakers/hubert.png
     - title: "Iron parts on deep roots: Using the RIOT operating system"
       time: 1025
       url: /sessions/riot-os/
@@ -39,12 +39,12 @@
           avatar: speaker.jpg
     - title: Lunch 🍴
       time: 1235
-    - title: Our Experience Writing a Production Embedded Library in Rust
+    - title: War stories from teaching Rust and Embedded simultaneously
       time: 1400
-      url: /sessions/production-embedded-library/
+      url: /sessions/war-stories/
       speakers:
-        - name: Hubert de La Jonquière
-          avatar: speakers/hubert.png
+        - name: Oliver Scherer
+          avatar: speakers/oli-obk.png
     - title: Embedded Rust Anywhere
       time: 1440
       url: /sessions/embedded-rust/
@@ -63,7 +63,7 @@
       time: 1610
       url: /sessions/bluetooth-skateboarding/
       speakers:
-        - name: Ferdia McKeogh
+        - name: "Ferdia McKeogh & Jonas Schievink"
           avatar: speakers/ferdia.png
     - title: Industrial-grade IoT application on the road with Rust on Pi
       time: 1640
