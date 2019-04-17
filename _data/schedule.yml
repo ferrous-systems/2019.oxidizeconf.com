@@ -16,7 +16,7 @@
       url: /sessions/riot-os/
       speakers:
         - name: Christian Amsüss
-          avatar: speaker.jpg
+          avatar: speakers/christian-amsuess.png
     - title: Coffee Break ☕️
       time: 1040
     - title: Adding Security to Rust Safety with TrustZone for Armv8-M
@@ -49,8 +49,8 @@
       time: 1440
       url: /sessions/embedded-rust/
       speakers:
-        - name: Joseph Ross
-          avatar: speaker.jpg
+        - name: "Joseph Ross & Bob Cotrell"
+          avatar: speakers/bob_joe.png
     - title: How to Rust when Standards Are Defined in C
       time: 1520
       url: /sessions/how-to-rust/
