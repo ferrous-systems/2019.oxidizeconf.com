@@ -1,4 +1,4 @@
-<div class = 'venue_items'>
+<div class = 'venue_items' id="venues">
   {% for item in site.data.venue %}
     <div class = 'venue_item'>
       <h3 class="venue_heading" id = "{{ item.title | slugify | downcase }}">{{ item.title }}</h3>
