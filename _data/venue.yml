@@ -16,11 +16,11 @@
   link: ""
   linked: "/schedule"
 
-- title: Implementation Days
+- title: Implementation Days Meeting Spot
   date: 28 &amp; 29 April
   description: Impl. Days are a two day event for Embedded Rust contributors to collaborate in an active programming session. They are open to any attendees with a valid Conference or Workshop ticket.
-  location:
+  location: co.up coworking space<br>Adalbertstraße 7-9<br>10999 Berlin, Germany
   ticket: null
-  map:
+  map: https://www.google.com/maps/place/co.up/@52.5003298,13.4175977,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e337e23d413:0x2cfd69e5a9f68f1a!8m2!3d52.5003298!4d13.4197864
   link: ""
   linked:
