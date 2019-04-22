@@ -21,3 +21,16 @@
 - name: Mozilla
   website: https://www.mozilla.org
   logo: mozilla-logo.png
+
+- name: Kit Karlsruhe
+  website: https://www.kit.edu/
+  logo: Logo_KIT.svg
+
+- name: Etonomy
+  website:
+  logo: etonomy.png
+
+
+- name: Clevvi
+  website: https://www.clevvi.com.au/
+  logo: logo-clevvi3.svg
