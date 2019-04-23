@@ -30,7 +30,7 @@
       url: /sessions/risc-v/
       speakers:
         - name: Arun Thomas
-          avatar: speaker.jpg
+          avatar: speakers/arun.png
     - title: Test generator and managing resource dependencies
       time: 1220
       url: /sessions/test-generator/
