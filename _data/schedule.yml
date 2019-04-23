@@ -30,7 +30,7 @@
       url: /sessions/risc-v/
       speakers:
         - name: Arun Thomas
-          avatar: speaker.jpg
+          avatar: speakers/arun.png
     - title: Test generator and managing resource dependencies
       time: 1220
       url: /sessions/test-generator/
@@ -50,7 +50,7 @@
       url: /sessions/embedded-rust/
       speakers:
         - name: "Joseph Ross & Bob Cotrell"
-          avatar: speakers/bob_joe.png
+          avatar: speakers/bob_joe_small.png
     - title: How to Rust when Standards Are Defined in C
       time: 1520
       url: /sessions/how-to-rust/
@@ -76,13 +76,13 @@
       url: /sessions/bringing-more/
       speakers:
         - name:  Rahul Thakoor
-          avatar: speaker.jpg
+          avatar: speakers/rahul_small.png
     - title: Project Highlight - Tock-OS
       time: 1750
       url: /sessions/tock-os/
       speakers:
         - name: Louis Thiery
-          avatar: speaker.jpg
+          avatar: speakers/louis.png
     - title: Closing Notes 📋
       time: 1830
 
