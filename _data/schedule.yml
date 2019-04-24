@@ -1,5 +1,12 @@
+- day: Friday, April 27th
+  theme: 'aka "Workshop day" <a href="/#venues">at Beredsam</a>'
+  sessions:
+    - title: Registration opens
+      time: 0900
+    - title: Workshops begin
+      time: 0930
 - day: Saturday, 27th April
-  theme: aka "Talks, Talks, Talks"
+  theme: 'aka "Talks, Talks, Talks" <a href="/#venues">at ThoughtWorks Werkstatt</a>'
   sessions:
     - title: Registration opens 🎫
       time: 0830
@@ -87,5 +94,11 @@
       time: 1830
 
 - day: Sunday and Monday, 28-29th April
-  theme: aka "Working hard all day in the shop"
+  theme: 'aka "Working hard all day in the shop" <a href="/#venues">at co.up</a>'
   sessions:
+    - title: Introduction
+      time: 0900
+    - title: Project highlights
+      time: 0915
+    - title: Hacking!
+      time: 1000
